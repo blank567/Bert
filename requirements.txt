@@ -1,0 +1,5 @@
+# 使用现有 llm 环境；CUDA 版 PyTorch 应依据驱动单独安装。
+torch>=2.4
+transformers>=4.48,<6
+safetensors>=0.4
+pytest>=8

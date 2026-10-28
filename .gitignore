@@ -1,0 +1,56 @@
+# 本地说明不发布；对外说明与实验报告保留在根目录。
+/docs/
+
+# 原始/清洗语料与本地模型。
+/data/
+/models/
+/checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# 缓存、实验日志、预测文本和中间产物。
+/cache/
+/outputs/
+/artifacts/
+/tmp/
+/temp/
+/runs/
+/wandb/
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar
+*.gz
+
+# Python、测试和构建生成物。
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# 虚拟环境、本地凭据和编辑器配置。
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.codex/
+.agents/
+.aws/
+.DS_Store
+Thumbs.db
+Desktop.ini
